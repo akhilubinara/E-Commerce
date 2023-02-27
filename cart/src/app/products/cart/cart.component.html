@@ -1,0 +1,79 @@
+<!-- ---empty cart--- -->
+<div class="cla" >
+    <div class="container" *ngIf="cartitems.length==0">
+        <div class="row">
+            <div class="col text-center">
+                <img src="data:image/png;base64,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" alt="">
+                <h3 class="mt-3">Your cart is empty </h3>
+                <a class="btn btn-primary" routerLink="/">Shop Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- cart with content -->
+<div style="margin: auto;" class="container m-5 text-center" *ngIf="cartitems.length!=0">
+    <div class="row">
+        <div class="col">
+            <table class="table border border-dark">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="text-left">
+                    <tr *ngFor="let product of cartitems" >
+                        <td>100</td>
+                        <td>{{product.title}}</td>
+                        <td><img [src]="product.image" width="100px" alt=""></td>
+                        <td>{{product.description}}</td>
+                        <td>{{product.price}}</td>
+                        <td><button id="b1" (click)="removeitem(product)"><i class="fa-solid fa-trash"></i></button></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div style="float: right;">
+                <button (click)="emptycart()" class="btn btn-danger">Empty Cart</button> &nbsp;
+                <button class="btn btn-warning">View Mode</button> &nbsp; 
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Check out</button> &nbsp;
+                <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Check Out Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>Delivery Address</h2>
+          <form action="" class="form-control">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Address/House No.">
+            <input type="text" placeholder="pincode">
+            <input type="text" placeholder="State">
+            <input type="text" placeholder="Country">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Contact Number">
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                <div class="mt-3"><h3><b>Grand Total : ${{grandtotal}} </b></h3></div>
+            </div>
+        </div>
+    </div>
+</div>

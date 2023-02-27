@@ -1,0 +1,35 @@
+        E Commerce Front End
+
+1. Create an angular project - ng new Cart
+2. Run angular - ng s -o
+3. Add bootstrap, font Awesome, google fonts
+4. Lazy Loading
+    -Its a process of loading components, modules etc.
+    -it improves application loading time
+ -> ng g m products --route products --module app.module 
+5. Add router-outlet inside app.component.html
+6. Create components should lazy loaded in the product module.
+  -> All product - ng g c products/all-products
+  -> cart - ng g c products/cart
+  -> wish-list - ng g c products/wish-list
+7. Setup path for each components
+  - product.module.ts 
+8. create page-not-found
+9. Create header and footer
+   ng g c header
+   ng g c footer
+10. omponent Designing
+
+11. Backend Integration
+   
+12. angular services
+    ng g s products/api
+13. immport httpclientmodule in product module
+    product  module
+14. Dependency inject httpclient
+    class in api.services
+15. Integration
+16. Design of wish-list and cart
+17. search concept
+    ng g p products/pipes/filter
+

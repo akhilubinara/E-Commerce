@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fira+Sans:wght@200&family=Lato:wght@300&family=Merriweather:wght@900&family=Roboto+Mono:wght@300;400&family=Roboto:wght@100&family=Ubuntu:ital@1&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.card-img-top{
+    height: 300px;
+    transition-duration:500ms ;
+    transition-timing-function: ease-out;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.cla{
+    margin-top: 100px;
+}
+#foot{
+    position: relative;
+    bottom: -197px;
+    width: 100%;
+    
+}
